@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background: linear-gradient(to top, rgba(0,0,0,0.3)50%, rgba(0,0,0,0.3)50%), url(logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar{
+    background: #607D3B;
+    height: 10vh;
+}
+
+h3{
+    color: tomato;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 6px;
+    text-shadow: 2px 2px 2px darkblue;
+}
+
+h4{
+    width: 110px;
+    height: 25px;
+    background: darkblue;
+    border: hidden;
+    border-radius: 7px;
+    margin-left: 1230px;
+    padding-top: 2px;
+    margin-top: -30px;
+}
+
+h5{
+    color: darkblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+    margin-top: 70px;
+}
+
+h5 span{
+    color: white;
+    font-size: 45px;
+    text-shadow: 2px 2px 2px black;    
+}
+
+h4 a{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+}
+
+
+.we{
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.drop1{
+    margin-left: 50px;
+}
+
+.drop1 ul{
+    list-style: none;
+    display: flex;
+    margin-left: 100px;
+}
+
+.drop1 ul li{ 
+    width: 100px;
+    position: relative;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px 30px;
+    background-color: darkblue;
+}
+
+.drop1 ul li:hover{
+    background-color: tomato;
+}
+
+.drop1 ul li a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.first{
+    margin-left: -10px;
+    margin-top: -9px;
+    display:  none;
+}
+
+.drop1 ul li:hover .first{
+    display: flex;
+    position: absolute;
+    padding: -100px;
+    left: 0;
+    top: 100%;
+}
+
+.drop1 ul li:hover .first ul{
+    display: block;
+    margin: 10px;
+}
+
+.drop1 ul li:hover .first ul li{
+    margin-top: 1px;
+    width: 140px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.drop1 ul li:hover .first ul li{
+    color: white;
+}
+
+.try{
+    display: none;
+}
+
+.first ul li:hover .try{
+    margin-top: -9px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    text-align: center;
+}
+
+.first ul li:hover .try ul li{
+    min-width: 400px;
+}
+
+
+
+
+
+
+
+
